@@ -3,9 +3,22 @@
 }
 
 .hw {
-
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .hwTitle {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 1000px;
 
+
+}
+
+.hwBlock{
+    display: flex;
+    flex-direction: column;
 }
