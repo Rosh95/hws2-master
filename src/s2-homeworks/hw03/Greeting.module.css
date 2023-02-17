@@ -5,9 +5,11 @@
 }
 
 .error {
+    color: red;
 }
 
 .input {
+    border: 1px solid black;
 }
 
 .input:focus {
