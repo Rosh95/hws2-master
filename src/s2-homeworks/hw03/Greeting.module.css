@@ -1,7 +1,10 @@
 .greetingForm {
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .inputAndButtonContainer {
+
 }
 
 .error {
@@ -9,7 +12,10 @@
 }
 
 .input {
-    border: 1px solid black;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    height: 36px;
+
 }
 
 .input:focus {
@@ -19,6 +25,13 @@
 }
 
 .button {
+    margin-left: 10px;
+    background: #0066cc;
+    color: white;
+    padding: 5px 24px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 5px;
 }
 
 .button:focus {

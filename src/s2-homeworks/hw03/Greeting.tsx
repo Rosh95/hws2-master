@@ -46,19 +46,21 @@ const Greeting: React.FC<GreetingPropsType> = (
                         onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
+                    <button
+                        id={'hw3-button'}
+                        onClick={addUser}
+                        className={s.button}
+                        disabled={!name.trim()}
+                    >
+                        add
+                    </button>
                     <div id={'hw3-error'} className={s.error}>
                         {error}
                     </div>
+
+
                 </div>
 
-                <button
-                    id={'hw3-button'}
-                    onClick={addUser}
-                    className={s.button}
-                    disabled={!name.trim()}
-                >
-                    add
-                </button>
             </div>
 
             {lastUserName && (
